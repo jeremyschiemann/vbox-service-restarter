@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vbox-service-restarter"
+version = "0.1.0"
+description = "Periodically restart the services of a vbox which sometimes stop."
+authors = ["Jeremy Schiemann <jeremy.schiemann@sap.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lxml = "^4.6.3"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+mypy = "^0.812"
+pydocstyle = "^6.0.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
