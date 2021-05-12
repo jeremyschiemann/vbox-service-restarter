@@ -5,7 +5,7 @@ description = "Periodically restart the services of a vbox which sometimes stop.
 authors = ["Jeremy Schiemann <jeremy.schiemann@sap.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 lxml = "^4.6.3"
 requests = "^2.25.1"
 
